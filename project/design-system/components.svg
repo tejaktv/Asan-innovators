@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Component -->
+  <g id="logo">
+    <rect x="50" y="50" width="48" height="48" rx="12" fill="url(#gradient1)"/>
+    <text x="74" y="80" font-family="Inter" font-weight="700" font-size="20" fill="white" text-anchor="middle">A</text>
+    <circle cx="90" cy="58" r="6" fill="url(#gradient2)" opacity="0.8"/>
+  </g>
+  
+  <!-- Primary Button -->
+  <g id="primary-button">
+    <rect x="50" y="150" width="200" height="56" rx="16" fill="url(#gradient1)"/>
+    <text x="150" y="185" font-family="Inter" font-weight="600" font-size="16" fill="white" text-anchor="middle">Start Your Project</text>
+  </g>
+  
+  <!-- Secondary Button -->
+  <g id="secondary-button">
+    <rect x="50" y="230" width="200" height="56" rx="16" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="150" y="265" font-family="Inter" font-weight="600" font-size="16" fill="white" text-anchor="middle">Watch Our Story</text>
+  </g>
+  
+  <!-- Service Card -->
+  <g id="service-card">
+    <rect x="300" y="50" width="320" height="400" rx="24" fill="white" filter="url(#shadow)"/>
+    <rect x="324" y="74" width="64" height="64" rx="16" fill="url(#gradient1)"/>
+    <text x="356" y="110" font-family="Inter" font-weight="700" font-size="24" fill="white" text-anchor="middle">💻</text>
+    <text x="320" y="170" font-family="Inter" font-weight="700" font-size="24" fill="#0f172a">Web Development</text>
+    <text x="320" y="200" font-family="Inter" font-weight="400" font-size="16" fill="#64748b">Scalable Digital Platforms</text>
+    <text x="320" y="240" font-family="Inter" font-weight="400" font-size="14" fill="#64748b">Custom enterprise web applications built with cutting-edge technologies, designed for scale, performance, and security.</text>
+  </g>
+  
+  <!-- Stats Component -->
+  <g id="stats">
+    <rect x="700" y="50" width="120" height="120" rx="16" fill="rgba(16,185,129,0.1)"/>
+    <text x="760" y="90" font-family="Inter" font-weight="700" font-size="32" fill="#0f172a" text-anchor="middle">500+</text>
+    <text x="760" y="115" font-family="Inter" font-weight="600" font-size="14" fill="#10b981" text-anchor="middle">Projects</text>
+    <text x="760" y="135" font-family="Inter" font-weight="400" font-size="12" fill="#64748b" text-anchor="middle">Delivered</text>
+  </g>
+  
+  <!-- Testimonial Card -->
+  <g id="testimonial">
+    <rect x="300" y="500" width="500" height="200" rx="24" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="320" y="540" font-family="Inter" font-weight="400" font-size="18" fill="white" style="font-style: italic;">"Outstanding results! They delivered our project ahead of schedule with exceptional quality."</text>
+    <text x="320" y="580" font-family="Inter" font-weight="600" font-size="16" fill="white">Priya Sharma</text>
+    <text x="320" y="600" font-family="Inter" font-weight="400" font-size="14" fill="rgba(255,255,255,0.7)">CEO, StartupHub</text>
+  </g>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+</svg>
