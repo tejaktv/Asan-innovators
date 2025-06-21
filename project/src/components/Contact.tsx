@@ -32,7 +32,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+91 8121253906',
+      content: '+91 8121253906, +91 99492 61555',
       subtitle: 'Available 24/7 for urgent projects',
       color: 'from-blue-500 to-blue-600',
       action: 'tel:+918121253906'
