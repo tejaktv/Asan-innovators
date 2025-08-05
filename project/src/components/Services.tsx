@@ -23,8 +23,8 @@ const Services = () => {
       ],
       technologies: ['React', 'Node.js', 'TypeScript', 'GraphQL', 'Docker', 'Kubernetes', 'AWS', 'MongoDB'],
       color: 'from-blue-600 to-blue-700',
-      pricing: 'Starting from ₹2,50,000',
-      timeline: '3-6 months',
+      pricing: 'Starting from ₹20,000',
+      timeline: '1 month',
       benefits: [
         '99.9% Uptime Guarantee',
         'Mobile-First Responsive Design',
@@ -50,8 +50,8 @@ const Services = () => {
       ],
       technologies: ['Swift', 'Kotlin', 'React Native', 'Flutter', 'Firebase', 'Redux', 'SQLite', 'REST APIs'],
       color: 'from-orange-600 to-orange-700',
-      pricing: 'Starting from ₹3,00,000',
-      timeline: '4-8 months',
+      pricing: 'Starting from ₹30,000',
+      timeline: '1 month',
       benefits: [
         'App Store Approval Guarantee',
         'Cross-Platform Compatibility',
@@ -77,8 +77,8 @@ const Services = () => {
       ],
       technologies: ['AWS', 'Azure', 'Docker', 'Kubernetes', 'Terraform', 'Jenkins', 'Ansible', 'Prometheus'],
       color: 'from-red-600 to-red-700',
-      pricing: 'Starting from ₹1,50,000',
-      timeline: '2-4 months',
+      pricing: 'Starting from ₹50,000',
+      timeline: '1-2 months',
       benefits: [
         '99.99% Availability SLA',
         'Auto-scaling & Load Balancing',
@@ -104,8 +104,8 @@ const Services = () => {
       ],
       technologies: ['Python', 'TensorFlow', 'PyTorch', 'OpenAI', 'Scikit-learn', 'Pandas', 'CUDA', 'MLflow'],
       color: 'from-blue-600 to-orange-600',
-      pricing: 'Starting from ₹4,00,000',
-      timeline: '6-12 months',
+      pricing: 'Starting from ₹40,000',
+      timeline: '1-3 months',
       benefits: [
         'ROI Improvement (25-40%)',
         'Process Automation',
@@ -131,8 +131,8 @@ const Services = () => {
       ],
       technologies: ['OWASP', 'OAuth', 'JWT', 'SSL/TLS', 'Firewall', 'SIEM', 'Splunk', 'Nessus'],
       color: 'from-red-600 to-orange-600',
-      pricing: 'Starting from ₹2,00,000',
-      timeline: '3-6 months',
+      pricing: 'Starting from ₹20,000',
+      timeline: '1-3 months',
       benefits: [
         '99.9% Threat Detection Rate',
         'Compliance Certification',
@@ -158,8 +158,8 @@ const Services = () => {
       ],
       technologies: ['Agile', 'Scrum', 'Lean', 'Design Thinking', 'Analytics', 'CRM', 'ERP', 'BPM'],
       color: 'from-orange-600 to-blue-600',
-      pricing: 'Starting from ₹5,00,000',
-      timeline: '6-18 months',
+      pricing: 'Starting from ₹15,000',
+      timeline: '1 month',
       benefits: [
         'Operational Efficiency (40-60%)',
         'Cost Reduction (20-35%)',
@@ -174,29 +174,29 @@ const Services = () => {
       icon: Database, 
       title: 'Data Engineering', 
       description: 'Big data processing, ETL pipelines, and analytics infrastructure',
-      pricing: '₹1,50,000+',
-      timeline: '2-4 months'
+      pricing: '₹50,000+',
+      timeline: '1-2 months'
     },
     { 
       icon: Cpu, 
       title: 'IoT Solutions', 
       description: 'Connected device ecosystems, edge computing, and sensor networks',
-      pricing: '₹3,00,000+',
-      timeline: '4-8 months'
+      pricing: '₹15,000+',
+      timeline: '1-2 months'
     },
     { 
       icon: Globe, 
       title: 'Blockchain Development', 
       description: 'DApps, smart contracts, and cryptocurrency solutions',
-      pricing: '₹4,00,000+',
-      timeline: '6-10 months'
+      pricing: '₹10,000+',
+      timeline: '15 days'
     },
     { 
       icon: Settings, 
       title: 'API Development', 
       description: 'RESTful APIs, GraphQL, and microservices architecture',
-      pricing: '₹1,00,000+',
-      timeline: '1-3 months'
+      pricing: '₹10,000+',
+      timeline: '10 days'
     }
   ];
 

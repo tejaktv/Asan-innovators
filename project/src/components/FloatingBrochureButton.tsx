@@ -9,8 +9,8 @@ const FloatingBrochureButton = () => {
     
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/ASAN-Innovators-Brochure.pdf';
-    link.download = 'ASAN-Innovators-Brochure.pdf';
+    link.href = '/BROCHURE.pdf';
+    link.download = 'BROCHURE.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
