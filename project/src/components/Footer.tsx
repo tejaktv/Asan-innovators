@@ -173,6 +173,23 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
+              <div className="flex justify-center gap-6 mt-4">
+                <img
+                  src="/17052955243640.png"
+                  alt="Government of India Startup India Logo"
+                  className="h-20 object-contain"
+                />
+                <img
+                  src="https://w7.pngwing.com/pngs/663/496/png-transparent-government-of-india-ministry-of-micro-small-and-medium-enterprises-small-business-industry-india-text-logo-monochrome-thumbnail.png"
+                  alt="MSME Logo"
+                  className="h-20 object-contain"
+                />
+                <img
+                  src="https://grmcp.com/wp-content/uploads/2023/03/GRM-Custom-Products-LP-is-ISO-9001-2015-Certified-Quality-Management-Company.png"
+                  alt="GRM Custom Products ISO 9001 Logo"
+                  className="h-20 object-contain"
+                />
+              </div>
             </div>
           </div>
 
